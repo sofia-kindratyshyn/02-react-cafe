@@ -1,6 +1,5 @@
 import css from "./CafeInfo.module.css";
 
-
 export default function CafeInfo(){
     return (
         <div className={css.container}>
