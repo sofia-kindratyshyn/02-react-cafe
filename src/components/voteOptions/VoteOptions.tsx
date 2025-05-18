@@ -7,6 +7,7 @@ interface VoteProps{
     canReset: boolean
 }
 
+
 export default function VoteOptions({onVote, onReset, canReset}: VoteProps) {
     
 function handleClick(prop: VoteType){

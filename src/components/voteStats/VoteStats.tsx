@@ -7,7 +7,6 @@ interface VotesOpt {
     positiveRate: number
 }
 
-
 export default function VoteStats({votes, totalVotes, positiveRate}: VotesOpt){
 
 
